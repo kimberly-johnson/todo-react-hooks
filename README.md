@@ -1,4 +1,12 @@
+## Remaining work to be done:
+* Clear input fields after submit
+* Flesh out styling
+* Add more tests
+* Possible additional functionality: delete lists, checkbox items, add time... etc
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+After cloning this repository, run `npm i`, then you can run the following scripts:
 
 ## Available Scripts
 
