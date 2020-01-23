@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import UserList from "./TodoList";
 import { Paper, Tabs, Tab, TextField } from "@material-ui/core";
 
+//functionality to add lists, navigate between them
 export default function Nav() {
   const [lists, setList] = useState({
     newList: "",

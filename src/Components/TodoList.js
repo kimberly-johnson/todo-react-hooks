@@ -13,8 +13,10 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-let id = 0;
+//variable to initiate id generation
+let taskId = 0;
 
+//functionality to add, delete tasks 
 export default function UserList(props) {
   const classes = useStyles();
 
@@ -32,7 +34,7 @@ export default function UserList(props) {
     e.preventDefault();
     setTasks({
       ...tasks,
-      newTask: { id: id++, name: e.target.value, listName: currList }
+      newTask: { id: taskId++, name: e.target.value, listName: currList }
     });
   };
 
